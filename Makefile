@@ -6,3 +6,6 @@ start: # запустить приложение
 
 publish: # выполнить
 	npm publish --dry-run
+
+lint:
+	npx eslint .
