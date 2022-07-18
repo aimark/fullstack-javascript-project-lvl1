@@ -2,7 +2,7 @@ install: # запуск
 	npm ci
 
 start: # запустить приложение
-	node bin/brain-games.js
+	node bin/brain-even.js
 
 publish: # выполнить
 	npm publish --dry-run
