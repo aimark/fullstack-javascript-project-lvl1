@@ -1,8 +1,11 @@
 #!/usr/bin/env node
-import { getUserName, primeGame } from '../src/index.js';
+import { getUserName, checkAnswer } from '../src/index.js';
+import { primeGame } from '../games/prime.js';
 
 console.log('brain-prime');
 console.log('Welcome to the Brain Games!');
 
-getUserName();
-primeGame();
+let myUserName = getUserName();
+let userAnswer = primeGame();
+      
+checkAnswer(userAnswer, myUserName);

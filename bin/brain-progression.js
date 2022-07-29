@@ -1,8 +1,11 @@
 #!/usr/bin/env node
-import { getUserName, progressionGame } from '../src/index.js';
+import { getUserName, checkAnswer } from '../src/index.js';
+import { progressionGame } from '../games/progression.js';
 
 console.log('brain-progression');
 console.log('Welcome to the Brain Games!');
 
-getUserName();
-progressionGame();
+let myUserName = getUserName();
+let userAnswer = progressionGame();
+      
+checkAnswer(userAnswer, myUserName);

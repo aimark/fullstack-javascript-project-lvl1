@@ -1,8 +1,11 @@
 #!/usr/bin/env node
-import { getUserName, calcGame } from '../src/index.js';
+import { getUserName, checkAnswer } from '../src/index.js';
+import { calcGame } from '../games/calc.js';
 
 console.log('brain-calc');
 console.log('Welcome to the Brain Games!');
 
-getUserName();
-calcGame();
+let myUserName = getUserName();
+let userAnswer = calcGame();
+      
+checkAnswer(userAnswer, myUserName);
