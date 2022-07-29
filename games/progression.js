@@ -18,7 +18,7 @@ export const progressionGame = () => {
     } else if (i === 1) {
       myArray = [];
       elem = 1;
-      randomNumberDelta = getRandomNumber(1, 4);
+      randomNumberDelta = getRandomNumber(2, 4);
       for (let x = 0; x < 10; x += 1) {
         elem *= randomNumberDelta;
         myArray.push(elem);
@@ -40,7 +40,7 @@ export const progressionGame = () => {
       console.log('Correct!');
     } else {
       ifRight = false;
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}`);
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`);
       return ifRight;
     }
   }
