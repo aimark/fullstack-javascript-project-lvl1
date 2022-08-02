@@ -6,5 +6,5 @@ console.log('brain-prime');
 console.log('Welcome to the Brain Games!');
 
 const myUserName = getUserName();
-const userAnswer = primeGame(); 
+const userAnswer = primeGame();
 checkAnswer(userAnswer, myUserName);

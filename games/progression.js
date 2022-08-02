@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import getRandomNumber from '../src/random-num.js';
 
-export const progressionGame = () => {
+const progressionGame = () => {
   let ifRight = true;
   console.log('What number is missing in the progression?');
   for (let i = 0; i < 3; i += 1) {

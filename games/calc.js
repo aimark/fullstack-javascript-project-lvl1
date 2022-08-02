@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import getRandomNumber from '../src/random-num.js';
 
-export const calcGame = () => {
+const calcGame = () => {
   let ifRight = true;
   console.log('What is the result of the expression?');
   for (let i = 0; i < 3; i += 1) {

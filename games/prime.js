@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import getRandomNumber from '../src/random-num.js';
 
-export const primeGame = () => {
+const primeGame = () => {
   let ifRight = true;
   const primeArray = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67];
   console.log('Answer "yes" if given number is prime. Otherwise abswer "no".');

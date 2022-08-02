@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import getRandomNumber from '../src/random-num.js';
 
-export const evenGame = () => {
+const evenGame = () => {
   let ifRight = true;
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {

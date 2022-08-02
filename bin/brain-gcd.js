@@ -6,5 +6,5 @@ console.log('brain-gcd');
 console.log('Welcome to the Brain Games!');
 
 const myUserName = getUserName();
-const userAnswer = gcdGame(); 
+const userAnswer = gcdGame();
 checkAnswer(userAnswer, myUserName);

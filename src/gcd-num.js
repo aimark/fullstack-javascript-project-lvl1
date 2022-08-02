@@ -1,4 +1,4 @@
-export const getGcd = (x, y) => {
+const getGcd = (x, y) => {
   let a = Math.max(x, y);
   let b = Math.min(x, y);
   while (b !== 0) {

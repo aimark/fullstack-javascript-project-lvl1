@@ -6,5 +6,5 @@ console.log('brain-progression');
 console.log('Welcome to the Brain Games!');
 
 const myUserName = getUserName();
-const userAnswer = progressionGame(); 
+const userAnswer = progressionGame();
 checkAnswer(userAnswer, myUserName);
