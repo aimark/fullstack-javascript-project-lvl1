@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { getRandomNumber } from '../src/random-num.js';
+import getRandomNumber from '../src/random-num.js';
 
 export const primeGame = () => {
   let ifRight = true;
@@ -20,4 +20,4 @@ export const primeGame = () => {
   }
   return ifRight;
 };
-  
+export default primeGame;

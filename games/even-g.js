@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { getRandomNumber } from '../src/random-num.js';
+import getRandomNumber from '../src/random-num.js';
 
 export const evenGame = () => {
   let ifRight = true;
@@ -19,3 +19,4 @@ export const evenGame = () => {
   }
   return ifRight;
 };
+export default evenGame;
